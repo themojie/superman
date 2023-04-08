@@ -113,6 +113,7 @@ install_superman() {
     fi
 
     rm superman/ -rf
+    wget https://github.com/themojie/superman/releases/download/1.0/superman-linux-amd64.tar.gz
     tar zxvf superman-linux-${arch}.tar.gz
     mv superman /usr/local/
     cd /usr/local/superman/
